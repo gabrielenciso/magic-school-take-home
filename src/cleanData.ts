@@ -26,7 +26,7 @@ interface CleanedData {
 
 export const cleanData = (data: Array<any>): Array<CleanedData> => {
 
-  const cleanedData = data.reduce((acc, item) => {
+  const processData = data.reduce((acc, item) => {
   // Check if email exists and if @school or @student.school
   if (item.email && (item.email.endsWith('@school.edu') || item.email.endsWith('@student.school.edu'))) {
 
@@ -51,5 +51,5 @@ export const cleanData = (data: Array<any>): Array<CleanedData> => {
   return acc;
 }, []);
 
-  return cleanedData;
+  return processData;
 }
