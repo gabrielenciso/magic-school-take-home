@@ -9,7 +9,7 @@ export const testUsers = [
   { first_name: "Benjamin", last_name: "Anderson", email: "ben.anderson@student.school.edu", role: "student", grade: 9, extracurricular: "Chess Club" },
   { first_name: "Mia", last_name: "Thomas", email: "mia.thomas@example.com", role: "guardian", phone: "555-234-5678" }, // Empty email
   { first_name: "Elijah", last_name: "Jackson", email: null, role: "other", notes: "Temporary access" },
-  { first_name: "Charlotte", last_name: "White", email: "charlotte.white@school.edu", role: "teacher", subject: "Science" },
+  { first_name: "Charlotte", last_name: "White", email: "charlotte.white@school.edu", role: null, subject: "Science" },
   { first_name: "Lucas", last_name: "Harris", email: "lucas.harris@student.school.edu", role: "student", grade: 11, allergy_info: "Peanuts" },
   { first_name: "Amelia", last_name: "Martin", email: null, role: null, emergency_contact: "555-987-6543" },
   { first_name: "Mason", last_name: "Lee", email: "mason.lee@student.school.edu", role: "student", grade: 8 },
@@ -28,5 +28,5 @@ export const testUsers = [
   { first_name: "Lily", last_name: "Carter", email: "lily.carter@student.school.edu", role: "student", grade: 7 },
   { first_name: "Aiden", last_name: "Mitchell", email: null, role: "parent", employer: "Tech Corp" }, // Added email: null
   { first_name: "Chloe", last_name: "Perez", email: null, role: "other", description: "Volunteer" },
-  { first_name: "Caleb", last_name: "Roberts", email: "caleb.roberts@student.school.edu", role: "student", grade: 10, homeroom: "Room 204" }
+  { first_name: "Caleb", last_name: "Roberts", email: "caleb.roberts@student.school.edu", role: "", grade: 10, homeroom: "Room 204" }
 ];
